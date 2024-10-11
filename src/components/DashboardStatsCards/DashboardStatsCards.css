@@ -1,0 +1,57 @@
+.card--container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  margin-top: 2rem;
+}
+.card {
+  /* Ensure max width is also set to three cards per row */
+  background: #dde6ed;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.card--cover {
+  background: #fff;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  color: #969393;
+}
+
+.card--title {
+  background: #ffffffc0;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  font-size: 14px;
+  color: #526d82;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card--title__paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: #029b16c0;
+}

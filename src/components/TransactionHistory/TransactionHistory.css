@@ -1,0 +1,180 @@
+.transaction-history-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.transaction-header h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.date-selector button {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.transaction-table thead {
+  background-color: #f4f4f4;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.transaction-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.transaction-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.transaction-table th {
+  font-weight: bold;
+}
+
+.transaction-table .status.credit {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.transaction-table .status.debit {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.action-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.action-button.download::before {
+  content: '⇩'; /* Use an appropriate icon */
+}
+
+.action-button.print::before {
+  content: '🖨'; /* Use an appropriate icon */
+}
+
+.action-button.delete::before {
+  content: '🗑'; /* Use an appropriate icon */
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pagination button {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+.transaction-history {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.date-picker {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.status-credit {
+  color: green;
+  font-weight: bold;
+}
+
+.status-debit {
+  color: red;
+  font-weight: bold;
+}
+
+.action-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.print-btn {
+  color: blue;
+}
+
+.delete-btn {
+  color: red;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}

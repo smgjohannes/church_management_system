@@ -1,0 +1,33 @@
+.membership-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.membership-table table {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.membership-table th,
+.membership-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.membership-table th {
+  background-color: #f2f2f2;
+}
+
+.total-amount {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Payment_modal {
+  width: 100%;
+}
+.action-handle {
+  display: flex;
+  justify-content: space-between;
+}

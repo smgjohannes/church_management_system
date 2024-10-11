@@ -1,0 +1,65 @@
+/* Overall container styles */
+.login-container {
+  display: flex; /* Enable flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Set full viewport height */
+  background-color: #007bff; /* Bootstrap primary blue */
+  width: 100%;
+}
+
+/* Inner content box styles */
+.content-box {
+  background-color: #ffffff; /* White background */
+  padding: 20px; /* Padding for spacing */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Form styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mb-3 {
+  width: 92%;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-default.border {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #6c757d;
+}
